@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .header_menu_items{
+        @apply text-xs cursor-pointer hover:underline underline-offset-8 shrink-0
+    }
+    .services_items{
+        @apply text-blue-800 underline
+    }
+    .card-items-header{
+        @apply text-2xl
+    }
+    .Link-items{
+        @apply text-sky-400
+    }
+    .footer-items{
+        @apply text-xs
+    }
+}
